@@ -1,0 +1,200 @@
+/*
+TITLE:
+FILE NAME:
+DESCRIPTION:
+AUTHOR: Letisha Rahming
+DATE CREATED: 1/23/2020
+DATE COMPLETED:
+LAST EDITED DATE: Align dives title and play button so that they are all center to the screen for any device
+*/
+
+body{
+	background-color: lightsteelblue;
+}
+
+div#gameholder{
+	border: none;
+	width: 680px;
+	/*height: ;*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#title{
+	background-image:url("media/penguin_title.png");
+	width: 600px;
+	height: 150px;
+}
+
+input#button{
+	display: block;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+	width: 200px;
+	margin-top: 800px;
+}
+
+
+
+/*-----------------------------------*/
+/*This is the natural styling for the <div>* remember divs are block elements so utilize float left to make space in the div container space*/
+/*MOUND 1*/
+div.mound1{
+	background-image:url("media/mound_1.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound:hover{
+	background-image: url("media/mound_1_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound1:active{
+	background-image: url("media/penguin_1.png");
+}
+
+/*MOUND 2*/
+div.mound2{
+	background-image:url("media/mound_2.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound2:hover{
+	background-image: url("media/mound_2_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound2:active{
+	background-image: url("media/penguin_2.png");
+}
+
+/*MOUND 3*/
+div.mound3{
+	background-image:url("media/mound_3.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound3:hover{
+	background-image: url("media/mound_3_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound3:active{
+	background-image: url("media/penguin_3.png");
+}
+
+/*MOUND 4*/
+div.mound4{
+	background-image:url("media/mound_4.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound4:hover{
+	background-image: url("media/mound_4_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound4:active{
+	background-image: url("media/penguin_4.png");
+}
+
+/*MOUND 5*/
+div.mound5{
+	background-image:url("media/mound_5.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound5:hover{
+	background-image: url("media/mound_5_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound5:active{
+	background-image: url("media/penguin_5.png");
+}
+
+/*MOUND 6*/
+div.mound6{
+	background-image:url("media/mound_6.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound6:hover{
+	background-image: url("media/mound_6_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound6:active{
+	background-image: url("media/penguin_6.png");
+}
+
+/*MOUND 7*/
+div.mound7{
+	background-image:url("media/mound_7.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound7:hover{
+	background-image: url("media/mound_7_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound7:active{
+	background-image: url("media/penguin_7.png");
+}
+
+/*MOUND 8*/
+div.mound8{
+	background-image:url("media/mound_8.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound8:hover{
+	background-image: url("media/mound_8_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound8:active{
+	background-image: url("media/penguin_8.png");
+}
+
+/*MOUND 9*/
+div.mound9{
+	background-image:url("media/mound_4.png");
+	width:200px;
+	height:200px;
+	float: left;
+}
+/*This pseudo class is on mouse hover*/
+div.mound9:hover{
+	background-image: url("media/mound_4_hover.png");
+	cursor: pointer;
+}
+/*This pseudo class is applied when you click a mound*/
+div.mound9:active{
+	background-image: url("media/penguin_4.png");
+}	
+	
+#yeti:active{
+	background-image: url("media/yeti.png");
+}	
+	
+	
